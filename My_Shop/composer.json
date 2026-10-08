@@ -1,0 +1,21 @@
+{
+    "name": "wecode-guy/projet_my_shop",
+    "description": "My Shop - mini e-commerce en PHP natif (MVC)",
+    "type": "project",
+    "require": {
+        "php": ">=8.0",
+        "ext-pdo": "*",
+        "ext-fileinfo": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "WecodeGuy\\ProjetMyShop\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "kone mikpan guy",
+            "email": "guy.kone@epitech.eu"
+        }
+    ]
+}

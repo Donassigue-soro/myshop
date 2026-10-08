@@ -1,0 +1,8 @@
+# Utile uniquement si le "DocumentRoot" pointe sur la racine du projet (XAMPP : htdocs/My_Shop).
+# Idéalement, faites pointer le DocumentRoot directement sur le dossier /public.
+Options -Indexes
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteRule ^$ public/ [L]
+    RewriteRule ^(?!public/)(.*)$ public/$1 [L]
+</IfModule>
